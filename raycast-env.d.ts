@@ -13,6 +13,8 @@ type ExtensionPreferences = {}
 declare type Preferences = ExtensionPreferences
 
 declare namespace Preferences {
+  /** Preferences accessible in the `menu-bar` command */
+  export type MenuBar = ExtensionPreferences & {}
   /** Preferences accessible in the `open-today-note` command */
   export type OpenTodayNote = ExtensionPreferences & {}
   /** Preferences accessible in the `new-gist` command */
@@ -22,6 +24,8 @@ declare namespace Preferences {
 }
 
 declare namespace Arguments {
+  /** Arguments passed to the `menu-bar` command */
+  export type MenuBar = {}
   /** Arguments passed to the `open-today-note` command */
   export type OpenTodayNote = {}
   /** Arguments passed to the `new-gist` command */

@@ -8,6 +8,12 @@
   "license": "MIT",
   "commands": [
     {
+      "mode": "menu-bar",
+      "name": "menu-bar",
+      "title": "GistPad",
+      "description": "Quick access to GistPad commands"
+    },
+    {
       "name": "open-today-note",
       "title": "Open Today's Note",
       "description": "Open the daily note for today",
