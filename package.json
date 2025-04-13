@@ -24,12 +24,6 @@
       "title": "New Gist",
       "description": "Create a new gist",
       "mode": "view"
-    },
-    {
-      "name": "new-gist-from-selection",
-      "title": "New Gist from Selection",
-      "description": "Create a new gist from the selected text",
-      "mode": "view"
     }
   ],
   "dependencies": {

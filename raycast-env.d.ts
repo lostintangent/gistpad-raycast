@@ -19,8 +19,6 @@ declare namespace Preferences {
   export type OpenTodayNote = ExtensionPreferences & {}
   /** Preferences accessible in the `new-gist` command */
   export type NewGist = ExtensionPreferences & {}
-  /** Preferences accessible in the `new-gist-from-selection` command */
-  export type NewGistFromSelection = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
@@ -30,7 +28,5 @@ declare namespace Arguments {
   export type OpenTodayNote = {}
   /** Arguments passed to the `new-gist` command */
   export type NewGist = {}
-  /** Arguments passed to the `new-gist-from-selection` command */
-  export type NewGistFromSelection = {}
 }
 
