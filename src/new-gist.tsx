@@ -7,7 +7,7 @@ type Values = {
   public?: boolean;
 };
 
-export default function Command() {
+export default function NewGist() {
   function handleSubmit(values: Values) {
     let url = "https://gistpad.dev/#/new";
     const params = new URLSearchParams();
@@ -59,11 +59,7 @@ export default function Command() {
         title="Contents"
         placeholder="Initial file contents (Optional)"
       />
-      <Form.Checkbox
-        id="public"
-        label="Public?"
-        defaultValue={false}
-      />
+      <Form.Checkbox id="public" label="Public?" defaultValue={false} />
     </Form>
   );
 }
