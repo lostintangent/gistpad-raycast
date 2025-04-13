@@ -10,7 +10,7 @@ export default function MenuBar() {
           icon={Icon.Calendar}
         />
       </MenuBarExtra.Section>
-      
+
       <MenuBarExtra.Section title="Create gist">
         <MenuBarExtra.Item
           title="New gist"

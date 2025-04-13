@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "gistpad",
-  "title": "GistPad",
-  "description": "",
+  "title": "Gistpad",
+  "description": "Quickly create gists and access your daily notes.",
   "icon": "icon.png",
   "author": "lostintangent",
   "license": "MIT",
@@ -10,7 +10,7 @@
     {
       "mode": "menu-bar",
       "name": "menu-bar",
-      "title": "GistPad",
+      "title": "Gistpad",
       "description": "Quick access to GistPad commands"
     },
     {
